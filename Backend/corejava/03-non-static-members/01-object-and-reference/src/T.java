@@ -10,6 +10,7 @@ class T
 	}
 	public static void main(String[] args) 
 	{
+		// object reference we supplying to a method return value
 		T obj = test();//= t1
 		System.out.println("from main:" + obj.i);
 	}
