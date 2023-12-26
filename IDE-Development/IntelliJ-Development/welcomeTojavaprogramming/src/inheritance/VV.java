@@ -21,7 +21,7 @@ class T1 extends A1
     T1(int i)
 
     {
-
+        super(10);
         System.out.println("T(int)");
 
     }

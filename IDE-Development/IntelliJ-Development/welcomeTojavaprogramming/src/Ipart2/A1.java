@@ -30,11 +30,11 @@ class V2
 
     {
 
-        inheritance.A a1 = new inheritance.A();
+        A a1 = new A();
 
         System.out.println("----------");
 
-        inheritance.A a2 = new inheritance.A();
+        A a2 = new A();
 
     }
 
