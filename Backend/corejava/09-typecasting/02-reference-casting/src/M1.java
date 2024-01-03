@@ -7,7 +7,7 @@ class M1
 		B b1 = new B();//homogenous assignments
 		C c1 = new C();//homogenous assignments
 		D d1 = new D();//homogenous assignments
-		Object obj2 = new A();//non homogenous assignments 
+		Object obj2 = new A();//non homogenous assignments or hertogenous 
 		System.out.println("done");
 		
 	}
