@@ -23,11 +23,11 @@ class V
 	{
 		V v1 = new V();
 		System.out.println("----------");
-		V v2 = new V();
+		V v2 = new V(100);
 		System.out.println("----------");
-		V v3 = new V();
+		V v3 = new V(100,200);
 		System.out.println("----------");
-		V v4 = new V();
+		V v4 = new V(100,200,300);
 		System.out.println("done");
 	}
 }

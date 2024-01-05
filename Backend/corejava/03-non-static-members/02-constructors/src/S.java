@@ -2,7 +2,7 @@ class S
 {
 	S()
 	{
-		s(10);
+		S(10);
 		System.out.println("R()");
 		
 	}

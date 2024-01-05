@@ -3,8 +3,10 @@ package has_a_realationship;
 public class Excelr {
     String place;
     String location;
-    void instuite(){
+    void instuite()
+    {
         System.out.println("Excelr");
+        
     }
 }
 class Student{

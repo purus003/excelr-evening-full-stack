@@ -4,7 +4,7 @@ class  F
 	{
 		System.out.println("test()");
 	}
-	protected string test(int i)
+	protected String test(int i)
 	{
 		System.out.println("test(int)");
 		return "abc";
@@ -14,7 +14,8 @@ class  F
 		System.out.println("test(String)");
 		return "xyz";
 	}
-	private char test(){
+	private char test(float f, double d)
+	{
 		System.out.println("test(float,double)");
 		return 'a';
 	}
@@ -26,7 +27,7 @@ class  F
 	public static void main(String[] args) 
 	{
 		F obj = new F();
-		obj.tets();
+		obj.test();
 		obj.test(10);
 		obj.test("abc");
 		obj.test(10.0f,20.0);

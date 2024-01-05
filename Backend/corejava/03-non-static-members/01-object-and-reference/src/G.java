@@ -7,4 +7,4 @@ class G
 		System.out.println(g1.i);
 	}
 }
-// G g1 is refrence variable ,new is operator aswell as keyword
+// G g1 is refrence variable ,new is operator aswell as keywordand and G() is constructor.

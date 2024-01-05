@@ -5,7 +5,6 @@ class A
 class B extends A//a super class and b sub class we inheritance
 { 
 	int j;
-}
 	public static void main(String[] args) 
 	{
 		B b1 = new B();

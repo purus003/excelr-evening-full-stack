@@ -1,6 +1,6 @@
 class L
 {
-    public void tesr()
+    public void test()
 	{
 		System.out.println("from L test()");
 	}

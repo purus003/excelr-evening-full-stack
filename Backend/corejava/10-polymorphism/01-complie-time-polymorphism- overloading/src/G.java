@@ -4,7 +4,7 @@ class  G
 	{
 		System.out.println("test()");
 	}
-	protected static string test(int i)
+	protected static String test(int i)
 	{
 		System.out.println("test(int)");
 		return "abc";
@@ -14,7 +14,7 @@ class  G
 		System.out.println("test(String)");
 		return "xyz";
 	}
-	private  static char test(){
+	private static char test(float f,double d){
 		System.out.println("test(float,double)");
 		return 'a';
 	}

@@ -12,7 +12,7 @@ class Car
 class Kia
 {
 	Car carRef1;
-	Kia(Car carRef2)
+	Kia(Car carRef2)//car = carRef2 
 	{
 		this.carRef1 = carRef2;
 	}

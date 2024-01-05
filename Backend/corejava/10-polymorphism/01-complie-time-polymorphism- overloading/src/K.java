@@ -1,6 +1,6 @@
 class J
 {
-	static public void tesr()
+	static public void test()
 	{
 		System.out.println("from J test()");
 	}

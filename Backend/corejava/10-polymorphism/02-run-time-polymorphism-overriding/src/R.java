@@ -1,19 +1,19 @@
 class  Q
 {
-	 public void test1()
+	public void test1()
 	{
-		System.out.println("from test1-M");
+		System.out.println("from test1-Q");
 	}
 }
 class R extends Q
 {
 	public void test1()
 	{
-		System.out.println("from test -P");
+		System.out.println("from test -R");
 	}
 	public static void main(String[] args) 
 	{
-		P obj1 = new P();
+		R obj1 = new R();
 		obj1.test1();
 		System.out.println("Hello World!");
 	}
