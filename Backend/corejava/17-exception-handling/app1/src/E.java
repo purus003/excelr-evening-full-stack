@@ -7,8 +7,3 @@ class E
 		System.out.println("main end");
 	}
 }
-/*Exception in thread "main" java.lang.NumberFormatException: For input string: "abc"
-        at java.lang.NumberFormatException.forInputString(Unknown Source)
-        at java.lang.Integer.parseInt(Unknown Source)
-        at java.lang.Integer.parseInt(Unknown Source)
-        at E.main(E.java:6)*/

@@ -6,7 +6,7 @@ class I
 		//long y = 9999999999l;
 		System.out.println("main begin");
 		//int[] x = new int[9999999999];//number is too large
-		int[] x = new int[999999999];
+		int[] x = new int[999999999];// jvm coundn't allocated  that much of spaces
 		System.out.println("main end");
 	}
 }

@@ -8,6 +8,3 @@ class B
 		System.out.println("main end");
 	}
 }
-/*
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-        at B.main(B.java:7)*/
