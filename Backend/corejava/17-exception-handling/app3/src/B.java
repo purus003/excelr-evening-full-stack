@@ -18,6 +18,7 @@ class B
 		{
 			System.out.println("from finally2");
 		}
+		
 		System.out.println("main end");
 	}
 }

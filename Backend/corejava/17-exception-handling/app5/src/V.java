@@ -10,7 +10,7 @@ class V
 			Thread.sleep(1000);
 			Class.forName("");
 		}
-		catch (Exception ex)
+		catch (Exception | Error ex)
 		{
 		}
 		System.out.println("main end");

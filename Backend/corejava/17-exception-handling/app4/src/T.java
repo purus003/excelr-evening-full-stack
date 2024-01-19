@@ -6,3 +6,5 @@ class T
 		DriverManager.getConnection("");
 	}
 }
+/*unreported exception SQLException; must be caught or declared to be thrown
+                DriverManager.getConnection("");*/

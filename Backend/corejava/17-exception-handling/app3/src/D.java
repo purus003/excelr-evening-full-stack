@@ -15,6 +15,11 @@ class D
 			System.out.println("outer finally begin");
 			try
 			{	
+				int j = 10/0;
+			}
+			catch(ArithmeticException ex)
+			{
+				System.out.println("from nested catch");
 			}
 			finally
 			{

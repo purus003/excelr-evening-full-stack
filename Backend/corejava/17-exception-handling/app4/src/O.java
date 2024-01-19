@@ -5,3 +5,5 @@ class O
 		clone();
 	}
 }
+/* unreported exception CloneNotSupportedException; must be caught or declared to be thrown
+                clone();*/

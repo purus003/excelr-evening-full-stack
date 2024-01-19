@@ -16,3 +16,4 @@ class B
 		}
 	}
 }
+// no error

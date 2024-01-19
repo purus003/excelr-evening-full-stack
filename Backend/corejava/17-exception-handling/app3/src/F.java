@@ -8,3 +8,4 @@ class F
 		}
 	}
 }
+// is there to conditions  are there  if  supply boolean true and false alternetly  if true if block is excuted and if false if block will not accepted

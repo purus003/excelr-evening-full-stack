@@ -12,4 +12,6 @@ class O
 		}
 		return 30;
 	}
-}
+}// unreachable statement
+                //return 30;
+                ^

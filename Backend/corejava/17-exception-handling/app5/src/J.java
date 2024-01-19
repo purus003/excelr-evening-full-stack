@@ -6,9 +6,16 @@ class J
 	}
 	static void test2() 
 	{
-		test3();
+		try
+		{
+			test3();
+		}
+		catch (ArithmeticException ex)
+		{
+			System.out.println("from catch");
+		}
 	}
-	static void test3() throws ArithmeticException
+	static void test3() //throws ArithmeticException//(unnecesary but we can keep)
 	{
 		int i = 10 / 0;
 	}

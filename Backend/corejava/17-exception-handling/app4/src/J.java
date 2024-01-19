@@ -21,6 +21,6 @@ class J
 		{
 			//code
 		}
-		System.out.println("end of main");
+		System.out.println("end of main");//never going to be excuted
 	}
 }

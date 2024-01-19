@@ -12,7 +12,7 @@ class T
 	}
 }
 
-//test() - Exception, main() - Exception
-//test() - Exception, main() - Throwable
-//test() - Throwable, main() - Exception
-//test() - Throwable, main() - Throwable
+//test() - Exception, main() - Exception possible
+//test() - Exception, main() - Throwable possible
+//test() - Throwable, main() - Exception not possible
+//test() - Throwable, main() - Throwable possible
