@@ -10,6 +10,11 @@ class O
 		int i;
 		do
 		{
+			i = sc.nextInt();
+			if ( i !=0 && i <= 10000)
+			{
+				break;
+			}
 			System.out.println("please enter valid amount to be withdrawn");
 			i = sc.nextInt();
 			if(i > 10000)
@@ -32,7 +37,7 @@ class O
 			}
 		}
 		while (true);
-		System.out.println("10,000 cash despensed. count the cash before leaving");
+		System.out.println( i + "10,000 cash despensed. count the cash before leaving");
 		System.out.println("Thank you");
 	}
 }

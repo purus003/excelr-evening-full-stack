@@ -1,5 +1,5 @@
 import java.io.IOException;
-class InsufficientBalanceException extends OutOfMemoryError//extends IOException
+class InsufficientBalanceException extends ArithmeticException//extends IOException
 {
 	InsufficientBalanceException(String msg)
 	{

@@ -8,7 +8,7 @@ class E
 			Class.forName("");
 			Thread.sleep(1000);
 		}
-		catch (ClassNotFoundException ex)
+		catch (ClassNotFoundException |InterruptedException ex)
 		{
 		}
 		System.out.println("main end");
