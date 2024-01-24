@@ -9,7 +9,8 @@ class O
         System.out.println(t2);
         //we can find out the order in enum Month
         System.out.println(t1.ordinal());
-        System.out.println(t2.ordinal());
+        System.out.println(t2.ordinal());//it will gives order of enum month. oder will starting will be 0,
+        System.out.println(Month.OCT.ordinal());
 
         int i = Month.FEB.ordinal();
         System.out.println(i);

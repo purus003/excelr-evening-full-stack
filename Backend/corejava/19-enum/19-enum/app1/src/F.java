@@ -1,6 +1,6 @@
 enum Enum1
 {
-    C1, C2, C3, C4;
+    C1, C2, C3, C4;//usally in uppercase uses only .should be valid indentfier
 }
 class F
 {
