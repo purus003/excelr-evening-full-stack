@@ -3,7 +3,7 @@
 import java.util.EnumSet;
 enum B
 {
-    ABC, XYZ, TEST;
+    ABC, XYZ, TEST, CHINNA, BIJJE;
 }
 class A
 {

@@ -18,7 +18,7 @@ class C
     }
     public static void main(String[] args)
     {
-        A a1 = A.CON4;
+        A a1 = A.CON4;//it will be treated as method
         System.out.println("------------");
         System.out.println(a1);
     }

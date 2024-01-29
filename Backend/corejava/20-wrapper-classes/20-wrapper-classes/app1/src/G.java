@@ -7,7 +7,7 @@ class G
 
 		Integer obj1 = new Integer(s1);
 		Integer obj2 = new Integer(s2);
-		
+		//int i=Integer.parseInt("200");  string to int conversion 
 		Integer obj3 = new Integer("30");
 		Integer obj4 = new Integer("40");
 

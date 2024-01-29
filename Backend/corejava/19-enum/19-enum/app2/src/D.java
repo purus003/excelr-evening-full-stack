@@ -4,13 +4,17 @@ class D
     {
         CON1(10), CON2(30), CON4(50);
         int i;//its part of CON1, CON2, CON4
+		static
+		{
+			System.out.println("SIB" + CON1.i);
+		}
         B(int i)
         {
-            this.i = i;
+            System.out.println("B(int)"+(this.i = i));
         }
 
 		{
-			this.i = 100;
+			System.out.println("IIB"+(this.i = i));
 		}
     }
     public static void main(String[] args)

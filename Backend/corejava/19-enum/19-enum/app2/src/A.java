@@ -35,7 +35,7 @@ class A
     constructor will execute.
  6. every enum should have one constructor, if there is no
     constructor then compiler only keeps no-arg constructor.
- 7. all enum constants are static, when class is loading
+ 7. all enum constants are static, when enum is loading
     at that time all static members loading.
  8. for every enum constant constructor will execute.
  */

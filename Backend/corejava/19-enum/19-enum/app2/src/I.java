@@ -1,4 +1,4 @@
-class Z5
+class I
 {
     enum X
     {
@@ -18,17 +18,23 @@ class Z5
             {
                 System.out.println("in B");
                 break;
-            }
+            }/*
             case C:
             {
                 System.out.println("in C");
                 break;
-            }
+            }*/
 			case D:
             {
                 System.out.println("in D");
                 break;
             }
+			default :
+			{
+				System.out.println("default");
+                break;
+				
+			}
         }
     }
 

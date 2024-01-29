@@ -1,5 +1,6 @@
 class A 
 {
+	@supperssWarnigs("removal")
 	public static void main(String[] args) 
 	{
 		int i = 0;
@@ -7,6 +8,9 @@ class A
 		int k = obj.intValue();//explicit-unboxing
 		System.out.println(k);
 		System.out.println("done");
+		String s1 = Integer.toString(10);
+		String s1 = Float.toString(10.2F);
+		String s1 = Boolean.toString(true);
 	}
 }
 

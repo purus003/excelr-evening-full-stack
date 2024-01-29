@@ -7,5 +7,6 @@ class R
 		Character c2 = new Character(str);
 		char ch3 = c2.charValue();
 		System.out.println(ch3);
+		//String cannot be converted to char
 	}
 }
