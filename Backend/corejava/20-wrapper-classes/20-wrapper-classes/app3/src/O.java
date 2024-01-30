@@ -1,23 +1,23 @@
 public class O
 {
 	//first preference goes to same type
-	/*
-	static void test(byte i)
+
+	/*static void test(byte i)
 	{
 		System.out.println("byte");
 	}*/
-	/*
-	static void test(short i)
+
+	/*static void test(short i)
 	{
 		System.out.println("short");
 	}*/
-	/*
-	static void test(int i)
+	
+	/*static void test(int i)
 	{
 		System.out.println("int");
 	}*/
-	/*
-	static void test(Byte b)
+	
+	/*static void test(Byte b)
 	{
 		System.out.println("Byte");
 	}*/
@@ -25,37 +25,30 @@ public class O
 	{
 		System.out.println("Double");
 	}
-	/*
-	static void test(Number n1)
+
+	/*static void test(Number n1)
 	{
 		System.out.println("Number");
 	}*/
-	/*
-	static void test(Object obj)
+	
+	/*static void test(Object obj)
 	{
 		System.out.println("Object");
 	}*/
-	/*
-	static void test(byte...b)
+	/*static void test(byte...b)
 	{
 		System.out.println("byte...var-arg");
-	}
-	*/
-	/*
-	static void test(int...i)
+	}*/
+
+	/*static void test(int...i)
 	{
 		System.out.println("int...var-arg");
 	}*/
-	static void test(Byte...i)
+	static void test(Byte...j)
 	{
 		System.out.println("Integer...var-arg");
 	}
-	/*
-	static void test(int...i)
-	{
-		System.out.println("int...var-arg");
-	}
-	*/
+	
 	public static void main(String[] args)
 	{
 		byte b1 = 10;
