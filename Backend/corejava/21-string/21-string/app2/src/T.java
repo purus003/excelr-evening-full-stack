@@ -2,7 +2,7 @@ class T
 {
 	public static void main(String[] args) 
 	{
-		String s1 = "java made easy and also java very popular";
+		String s1 = "java made easy and also very popular java";
 		//           0123456789
 		int i = s1.indexOf("java");
 		System.out.println(i);

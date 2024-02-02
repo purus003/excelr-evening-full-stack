@@ -6,3 +6,6 @@ class C
 		sb.concat("test");
 	}
 }
+/*
+cannot find symbol
+                sb.concat("test");*/

@@ -2,7 +2,7 @@ class H
 {
 	public static void main(String[] args) 
 	{
-		StringBuffer sb = new StringBuffer(20);
+		StringBuffer sb = new StringBuffer(20);//custom capacity
 		System.out.println(sb.length());
 		System.out.println(sb.capacity());
 		System.out.println("---------------------------");

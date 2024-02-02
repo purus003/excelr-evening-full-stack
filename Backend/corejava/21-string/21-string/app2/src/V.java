@@ -12,8 +12,9 @@ class V
 		//endIndex is larger than the length of this String object
 		//String s4 = s1.substring(5, 30);
 		//beginIndex is larger than endIndex.
-		String s5 = s1.substring(18, 17);
+		String s3 = s1.substring(-5,17);
 		System.out.println(s1);
 		System.out.println(s2);
+		System.out.println(s3);
 	}
 }

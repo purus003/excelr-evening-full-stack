@@ -2,7 +2,7 @@ class A
 {
 	public static void main(String[] args)
 	{
-		StringBuffer sb = new StringBuffer();
+		StringBuffer sb = new StringBuffer();//mutable object
 		sb.append("hello");
 		sb.append("test");
 		sb.append("123");

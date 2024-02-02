@@ -2,9 +2,23 @@ class P
 {
 	public static void main(String[] args)
 	{
-		StringBuilder sb = new StringBuilder("hellotoall");
-		System.out.println(sb.capacity());
+		StringBuilder sb1 = new StringBuilder("hellotoall");
+		StringBuilder sb2 = new StringBuilder("hellotoall");
+		System.out.println(sb1.capacity());
+		A a1 = new A();
+		A a2 = new A();
+		B b1 = new B();
+		System.out.println(sb1 == sb2);
+		//Integer i = new Integer(10);
+		//Character ch = new Character('a');
+		//System.out.println(i == ch);
 	}
+}
+class A
+{
+}
+class B
+{
 }
 /*
  * every method of StringBuffer is available in the StringBuilder
