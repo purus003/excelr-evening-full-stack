@@ -5,9 +5,8 @@ class Shared
 	void test1()
 	{
 		Thread t1 = Thread.currentThread();
-		System.out.println("this is from non-synchronized block" + t1.getName());
-		System.out.println("this is from non-synchronized block" + t1.getName());
-		System.out.println("this is from non-synchronized block" + t1.getName());
+		System.out.println("this is from non-synchronized block:" + t1.getName());
+
 		synchronized(this)//mutex(mutually exclusive)
 		{
 			for(int i = 1; i <= 100; i++)

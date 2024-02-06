@@ -6,7 +6,7 @@ class K
 		System.out.println(sb);
 		sb.deleteCharAt(5);
 		System.out.println(sb);//
-		sb.replace(6, 10;"excelr";
+		sb.replace(6,7,"excelr");
 		System.out.println(sb);
 	}
 }

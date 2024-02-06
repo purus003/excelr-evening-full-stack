@@ -1,9 +1,9 @@
 class Resource
 {
-	synchronized void water()
+	void waterTap()
 	{
 		Thread t1 = Thread.currentThread();
-		for(int i = 1; i <= 50; i++)
+		for(int i = 1; i <= 10; i++)
 		{
 			System.out.println("from water: " + "consumed by " + t1.getName());
 			//modifications for the attribute
@@ -21,7 +21,7 @@ class UserOne extends Thread
 	public void run()
 	{
 		//resource is a Resource type
-		resource.water();
+		resource.waterTap();
 	}
 }
 class UserTwo extends Thread
@@ -35,7 +35,7 @@ class UserTwo extends Thread
 	public void run()
 	{
 		//resource is a Resource type
-		resource.water();
+		resource.waterTap();
 	}
 }
 public class M1
@@ -53,7 +53,7 @@ public class M1
 		u1.start();
 		u2.start();
 		
-		r1.water();
+		r1.waterTap();
 	}
 }
 /* 

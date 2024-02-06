@@ -8,16 +8,17 @@ interface C
 }
 class G implements A,C
 {
-	public void test1()
+	public static void test1()
 	{
 		System.out.println("from test1");
 	}
-	public void test1()
+	public static  void test1()
 	{
 		System.out.println("Hello World!");
 	}
 	public static void main(String[] args) 
 	{
+		test1();
 		System.out.println("Hello World!");
 	}
 }

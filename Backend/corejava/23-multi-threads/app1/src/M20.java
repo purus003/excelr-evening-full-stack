@@ -14,9 +14,9 @@ public class M20
 	public static void main(String[] args)
 	{
 		R r1 = new R();
-		r1.setDaemon(true);
-		r1.setDaemon(false);
-		r1.setDaemon(true);
+		r1.setDaemon(true);//by default its false.
+		//r1.setDaemon(false);
+		//r1.setDaemon(true);
 		r1.start();
 		System.out.println("done");
 	}

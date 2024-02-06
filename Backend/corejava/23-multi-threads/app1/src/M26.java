@@ -17,8 +17,9 @@ public class M26
 	{
 		System.out.println("main begin");
 		V obj = new V();
-		obj.start();
 		Util.sleep(2000);
+		obj.start();
+		
 		//sleeping thread can be interrupted
 		//when the thread is in sleep if we call interrupt coming away from the sleep with the exception
 		obj.interrupt();

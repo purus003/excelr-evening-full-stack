@@ -3,7 +3,7 @@ class K extends Thread
 	@Override
 	public void run()
 	{
-		System.out.println("from run method of K class" + " from run method");
+		System.out.println("from run method of K class");
 		Thread t1 = Thread.currentThread();
 		System.out.println("child thread priority: " + t1.getPriority() + " from run method");
 		System.out.println("from child: " + t1.getName() + " from run method");

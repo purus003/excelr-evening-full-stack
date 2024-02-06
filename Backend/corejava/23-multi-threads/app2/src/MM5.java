@@ -8,7 +8,7 @@ class A
 	{
 		Thread t1 = Thread.currentThread();
 		System.out.println("from test1 non-synchronized statement: " + " by " + t1.getName());
-		synchronized(A.class)
+		synchronized(A.class)//for static method it requires  class lock
 		{
 			for(int i = 1; i <= 100; i++)
 			{

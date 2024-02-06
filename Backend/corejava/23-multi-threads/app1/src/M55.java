@@ -19,7 +19,7 @@ class F extends Thread
 	{
 		start();
 
-		for(int i = 1; i <= 10; i++)
+		for(int i = 10; i <= 20; i++)
 		{
 			System.out.println(getName() + ":" + i);
 		}
@@ -32,7 +32,7 @@ public class M55
 		E e1 = new E();
 		e1.start();
 
-		for(int i = 501; i <= 600; i++)
+		for(int i = 501; i <= 510; i++)
 		{
 			System.out.println(Thread.currentThread().getName() + ":" + i);
 		}

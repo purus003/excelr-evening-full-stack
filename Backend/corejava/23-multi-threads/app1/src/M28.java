@@ -1,3 +1,4 @@
+//another way  staring thread.we are calling Auto start of thread.
 class X extends Thread
 {
 	X()

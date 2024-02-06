@@ -46,7 +46,6 @@ public class M9
 	public static void main(String[] args) throws InterruptedException
 	{
 		A obj1 = new A();
-		A obj2 = new A();
 		
 		Thread t1 = new Thread1(obj1);
 		t1.start();
@@ -59,7 +58,7 @@ public class M9
 		System.out.println("main after 10 sec sleep");
 		
 		//whaterver we were achiving through test2 method we acheivin via main method
-		synchronized(obj1)
+		synchronized(obj1)//block.
 		{
 			System.out.println("test2 on " + obj1 + " begin by " + Thread.currentThread().getName());
 			obj1.notifyAll();

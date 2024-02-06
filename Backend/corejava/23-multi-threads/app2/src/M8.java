@@ -23,7 +23,7 @@ class A
 		//in case of notify it doesnt release lock until it executes the method
 		//in case of notify only one thread will be notified randomly.
 		//in case of notify only one thread notified and will be finishing execution others keep on waiting
-		//notify();
+		//notify();//randomlly only one thread will be notify.
 		//in case of notifyAll() all the waiting threads will be notified and finishing the execution.
 		notifyAll();
 		System.out.println("test2 on " + this + " end by " + Thread.currentThread().getName());
@@ -60,7 +60,6 @@ public class M8
 	public static void main(String[] args) throws InterruptedException
 	{
 		A obj1 = new A();
-		A obj2 = new A();
 		
 		Thread t1 = new Thread1(obj1);
 		t1.start();

@@ -10,7 +10,7 @@ class Shared
 		}
 	}
 
-	void test2()
+	synchronized void test2()
 	{
 		Thread t1 = Thread.currentThread();
 		for(int i = 20; i <= 40; i++)
@@ -20,7 +20,7 @@ class Shared
 		}
 	}
 
-	void test3()
+	synchronized void test3()
 	{
 		Thread t1 = Thread.currentThread();
 		for(int i = 60; i <= 80; i++)

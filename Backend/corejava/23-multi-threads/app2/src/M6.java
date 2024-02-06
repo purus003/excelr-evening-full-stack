@@ -1,80 +1,66 @@
-class Shared
+class TrackResource
 {
-	synchronized void test1(Shared obj)
+	synchronized void track1(TrackResource obj)
 	{
 		Thread t1 = Thread.currentThread();
 		System.out.println("test1 begin by " + t1.getName());
-		obj.test2(this);
+		obj.track2(this);
 		System.out.println("test1 end by " + t1.getName());
 	}
 
-	synchronized void test2(Shared obj)
+	synchronized void track2(TrackResource obj)
 	{
 		Thread t1 = Thread.currentThread();
 		System.out.println("test2 begin by " + t1.getName());
-		obj.test1(this);
+		obj.track1(this);
 		System.out.println("test2 end by " + t1.getName());
 	}
 }
-class Thread1 extends Thread
+class Train1 extends Thread
 {
-	Shared s1, s2;
-	Thread1(Shared s1, Shared s2)
+	TrackResource key1, key2;
+	Train1(TrackResource key1, TrackResource key2)
 	{
-		this.s1 = s1;
-		this.s2 = s2;
+		this.key1 = key1;
+		this.key2 = key2;
 	}
 	
 	@Override
 	public void run()
 	{
-		s1.test1(s2);
+		key1.track1(key2);
 	}
 }
-class Thread2 extends Thread
+class Train2 extends Thread
 {
-	Shared s1, s2;
-	Thread2(Shared s1, Shared s2)
+	TrackResource key1, key2;
+	Train2(TrackResource key1, TrackResource key2)
 	{
-		this.s1 = s1;
-		this.s2 = s2;
+		this.key1 = key1;
+		this.key2 = key2;
 	}
 	
 	@Override
 	public void run()
 	{
-		s2.test2(s1);
+		key2.track2(key1);
 	}
 }
 public class M6
 {
 	public static void main(String[] args)
 	{
-		Shared s1 = new Shared();
-		Shared s2 = new Shared();
+		TrackResource key1 = new TrackResource();
+		TrackResource key2 = new TrackResource();
 		
-		Thread1 t1 = new Thread1(s1, s2);
-		t1.start();
+		Train1 train1 = new Train1(key1, key2);
+		train1.start();
 		
-		Thread2 t2 = new Thread2(s1, s2);
-		t2.start();
+		Train2 train2 = new Train2(key1, key2);
+		train2.start();
 	}
 }
 
-class Util
-{
-	static void sleep(long millis)
-	{
-		try
-		{
-			Thread.sleep(millis);
-		}
-		catch(InterruptedException ex)
-		{
-			ex.printStackTrace();
-		}
-	}
-}
 /*
  * demonstration of dead lock
  * always avoid calling of synchronized method from another synchronized method.

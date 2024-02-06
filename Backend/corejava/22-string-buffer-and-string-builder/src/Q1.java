@@ -7,7 +7,7 @@ class Q1
 	}
 	public static void main(String[] args) 
 	{
-		Q q1 = new Q();
+		Q1 q1 = new Q1();
 
 		System.out.println(q1);
 	}
