@@ -15,7 +15,7 @@ class Util
 class C
 {
 	static C obj;
-	protected void finalize() throws Throwable
+	protected void finalize()throws Throwable
 	{
 		obj = this;
 		System.out.println("from finalize");
@@ -68,3 +68,4 @@ object finalize method calling only one time.if at all
 resurructed object becoming abandoned then removing that object
 straight away without calling finalize method
 */
+//reseruction

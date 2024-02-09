@@ -18,6 +18,8 @@ class M1
 	{
 		A a1 = new A();
 		a1 = null;
+
+		
 		System.out.println("end of the program");
 	}
 }

@@ -1,4 +1,5 @@
 import java.lang.reflect.Method;
+import java.lang.reflect.Constructor;
 class N
 {
 	N()
@@ -22,11 +23,17 @@ class M13
 	public static void main(String[] args) throws Exception
 	{
 		Class c1 = Class.forName("N");
-		Object obj = c1.newInstance();	
+		Object obj = c1.newInstance();
+		// creates a new  instance of the class represented by this class object.
 		Method m4 = c1.getDeclaredMethod("test4");
 		Object value = m4.invoke(obj);
 		System.out.println(value);
 		System.out.println();
+		Constructor[] constructors = c1.getDeclaredConstructors();
+		for (Constructor cons: constructors)
+		{
+			System.out.println(cons);
+		}
 	}
 }
 /*
