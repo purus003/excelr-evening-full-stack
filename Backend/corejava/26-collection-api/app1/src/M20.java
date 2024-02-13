@@ -14,9 +14,9 @@ class M20
 		list.add(10);
 		System.out.println("intial list before sort: " + list);
 
-		Comparator ctr = Collections.reverseOrder();
+		//Comparator ctr = Collections.reverseOrder();
 		
-		Collections.sort(list, ctr);
+		Collections.sort(list, Collections.reverseOrder());
 
 		System.out.println("final list after reverse sort: " + list);
 	}

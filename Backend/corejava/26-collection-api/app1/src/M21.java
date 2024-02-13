@@ -14,6 +14,9 @@ class M21
 		Arrays.sort(array, ctr);
 
 		System.out.println("\nfinal order: " + Arrays.toString(array));
+
+         Array.sort(array);
+		 System.out.println(Arrays.toString(array));
 	}
 }
 
