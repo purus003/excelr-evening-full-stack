@@ -18,7 +18,7 @@ class M4
 		//keySet method return type is a Set
 		//Set is a interface
 		//keySet internaly using anonymous innerclass in order to implement subclass to Set type.
-		Set keys = map1.keySet();
+		Set keys = map1.keySet();//return type is set type.
 		System.out.println(keys);
 
 		/*

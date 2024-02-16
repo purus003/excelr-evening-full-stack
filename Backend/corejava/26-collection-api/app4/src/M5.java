@@ -5,7 +5,7 @@ class M5
 	public static void main(String[] args) 
 	{
 		HashMap map1 = new HashMap();
-		map1.put(null, );
+		map1.put(null, 152);
 		map1.put(555, "xyz");
 		map1.put(99.2, true);
 		map1.put('a', null);

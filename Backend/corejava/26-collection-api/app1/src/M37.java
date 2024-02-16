@@ -11,6 +11,7 @@ public class M37
 		list.add(9);
 		list.add(0);
 		list.add(40);
+		list.add(9);
 		System.out.println("initial list: " + list);
 		Iterator it = list.iterator();
 		while (it.hasNext())

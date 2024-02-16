@@ -7,6 +7,10 @@ class A
 	{
 		this.i = i;
 	}
+	public String toString()
+	{
+		return i+"";
+	}
 }
 class M34 
 {
