@@ -6,7 +6,7 @@ class M19
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args)
 	{
-		ArrayList list = new ArrayList();
+		ArrayList<Integer> list = new ArrayList<Integer>();
 		list.add(90);
 		list.add(90);
 		list.add(900);

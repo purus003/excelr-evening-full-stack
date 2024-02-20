@@ -6,7 +6,7 @@ import java.lang.annotation.Target;
   //this type of annotations are called as meta annotations
 //through this Target annotation we are specifying L annotation
   //only used for method
-@Target(ElementType.METHOD)
+@Target(ElementType.TYPE)//meta annontaiton// method use supply Method.
 @interface L
 {
 	String message();

@@ -1,12 +1,16 @@
 class V
 {
-	@Deprecated
+	@Deprecated// this method is not use recommend any where.
 	void test1()
 	{
 	}
 	void test2()
 	{
 	}
+	//public void finalize()
+	//{
+		
+	//}
 }
 class M18
 {
